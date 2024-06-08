@@ -1,0 +1,230 @@
+.slider-sec{
+
+    width: 90%;
+    height: 50vh;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo1{
+    height: 100%;
+    width: 25%;
+    background-image: url(../images/inicio/plc-madre-1.webp);
+    background-size: cover;
+    background-position: center center;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+.bg-img-1{
+    background-image: url(../images/slider/ryzen.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-img-2{
+    background-image: url(../images/slider/rtx-center.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-img-3{
+    background-image: url(../images/slider/mainboard.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-image{
+    height: 100%;
+}
+
+
+.carousel-inner{
+    border-radius: 25px;
+    height: 100%;
+}
+
+.carousel{
+    height: 100%;
+}
+
+.slider{
+
+    width: 70%;
+    height: 100%;
+    border-radius: 2em;
+}
+
+.mas-detalles{
+    border-radius: .5em;
+    padding: 5px 15px;
+    border: solid #820BA2;
+    background-color: #820BA2;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding-right: 10%;
+}
+
+.mas-detalles:hover{
+    border: solid #660581;
+    background-color: #660581;
+}
+
+.nuevo-sup{
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.derecha{
+    transform: rotate(180deg);
+    margin-left: 1em;
+}
+
+.move{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ttl-nv{
+    color: #e4e4e4;
+    margin-left: 1em;
+}
+
+.hr{
+    border: 1px solid #820BA2;
+}
+
+.separador{
+    width: 100%;
+    background-color: #820BA2;
+}
+
+.iner-separador{
+    display: flex;
+    color: #e4e4e4;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.remate-img{
+    height: 15vw;
+}
+
+.remate-txt{
+    font-size: 8vw;
+}
+
+.remate-lst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: 2em 3em;
+}
+
+.remate1{
+    background-image: url(../images/inicio/plc-madre-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 560px;
+    width: 350px;
+    border-radius: 16px;
+}
+.remate2{
+    background-image: url(../images/slider/ddr5.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 560px;
+    width: 350px;
+    border-radius: 16px;
+}
+.remate3{
+    background-image: url(../images/slider/ryzen.png);
+    background-size: cover;
+    background-position: center center;
+    height: 560px;
+    width: 350px;
+    border-radius: 16px;
+}
+
+.remate-lft{
+    flex-direction: row-reverse;
+}
+
+.of-sem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-ico{
+    height: 55px;
+}
+
+.marcas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcas-af{
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(6, 270px);
+    margin: 3em 0;
+}
+
+.marc-img-c{
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marc-img{
+    height: 100px;
+    margin: 15px 0;
+}
+
+.nzxt{
+    height: 70px;
+}
+
+@media (max-width:1020px) {
+    .promo1{
+        display: none;
+    }
+
+    .slider-sec{
+        justify-content: center;
+    }
+
+    .slider{
+        width: 100%
+    }
+    .flecha-container{
+        display: none;
+    }
+}
+
+@media (max-width:1400px){
+    .remate-lst{
+        flex-direction: column;
+    }
+
+    .remate1{
+        width: 88%;
+        height: 20vh;
+    }
+    .remate2{
+        width: 88%;
+        height: 20vh;
+    }
+    .remate3{
+        width: 88%;
+        height: 20vh;
+    }
+}

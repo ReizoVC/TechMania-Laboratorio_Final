@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: #1E1E1E;
+}
+
+hr{
+    width: 96vw;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}

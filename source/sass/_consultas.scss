@@ -1,0 +1,133 @@
+.form__cntctInfo{
+    display: none;
+}
+.main__contacto{
+    padding: 0 15px;
+}
+.contacto__body{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+        )
+        ,url(../images/contactanos/form_background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.form__principal{
+    background-image: url(../images/inicio/rtx-derecha.png);
+    background-size: cover;
+    max-width: 1400px;
+    min-height: 80vh;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+}
+.form__title{
+    padding-top: 30px;
+    font-size: 3em;
+    margin: 15px;
+}
+.form__cntctInfo{
+    text-align: left;
+    padding: 50px;
+}
+.form__contacto{
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.form__element{
+    width: 100%;
+    background: rgb(230, 230, 230);
+    font-size: 2em;
+    margin: 5px 0;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+}
+.form__element:hover{
+    border-left: solid 2px #6100FF;
+    background: rgb(225, 225, 225);
+}
+.form__button{
+    font-size: 1.5em;
+    border: solid 1px rgb(138, 138, 138);
+    border-radius: 7px;
+    width: 100%;
+    height: 3rem;
+}
+.form__button:hover{
+    background-color: #6100FF;
+    border-color: #6100FF;
+}
+
+.mapa{
+    height: 200px;
+    width: 400px;
+    border-radius: 16px;
+    margin-left: 60px;
+}
+
+
+@media (min-width:780px) {
+    .form__cntctInfo{
+        display: block;
+        text-align: left;
+        padding: 50px;
+    }
+    .form__principal{
+        background-color:#fff;
+        max-width: 1400px;
+        height: 80vh;
+        margin: 50px auto;
+        text-align: center;
+    }
+    .form__title{
+        padding-top: 30px;
+        font-size: 5vh;
+        margin: 15px;
+    }
+    .form__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 5vh 60vh 
+    }
+    .form__cntctInfo{
+        text-align: left;
+        padding: 50px;
+    }
+    
+    .form__cntctInfo-redes{
+        display: flex;
+        justify-content: center;
+    }
+    .form__contacto{
+        grid-column: 1/3;
+        height: fit-content;
+        padding: 15px;
+    }
+    .form{
+        border-left: solid 3px #2b016d;
+    }
+    .form__subtittle{
+        margin: 10px;
+        font-size: 3em;
+    }
+    .form__sm{
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    .form__cntctInfo-text{
+        font-size: 1.6em;
+        margin-left: 50px; 
+    }
+    .form__copy{
+        text-align: center;
+        margin-top: 30px;
+    }
+}

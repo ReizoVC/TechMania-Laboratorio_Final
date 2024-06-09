@@ -6,26 +6,36 @@
  }
  
  .slider-sec-prod{
-     width: 90%;
+     width: 65vw;
      display: flex;
      flex-direction: column;
      gap: 3em;
  }
  
  .slider-prod{
-     background-image: url(../images/inicio/rtx-derecha.png);
-     background-size: cover;
-     background-position: center center;
-     width: 63vw;
+     width: 100%;
      height: 500px;
      border-radius: 2em;
  }
  
- .prod-cards-cont{
-     display: grid;
-     gap: 1em;
-     grid-template-columns: repeat(4, 290px);
- }
+.bg-img-1-prod{
+    background-image: url(../images/slider/ryzen.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-img-2-prod{
+    background-image: url(../images/slider/rtx-center.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-img-3-prod{
+    background-image: url(../images/slider/mainboard.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
  
  .page-navigation{
      color: #818181;
@@ -51,7 +61,7 @@
  
  .sidemenu{
      position: sticky;
-     top: 2em;
+     top: 5em;
      color: #F1F1F1;
      background-color: #3b3b3b;
      width: 300px;
@@ -59,7 +69,9 @@
      border-radius: 16px;
  
      &>ul{
- 
+
+        padding: 0;
+
          &>li{
              padding: 9px 0;
              font-size: 1.3em;
@@ -95,3 +107,9 @@
          font-weight: 900;
      }
  }
+
+ @media (max-width:1000px) {
+    .sidemenu{
+        display: none;
+    }
+}
